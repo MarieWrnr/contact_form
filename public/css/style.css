@@ -1,0 +1,110 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    color: #05004E;
+
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+h3 {
+    font-weight: 700;
+    color: white;
+}
+
+h4 {
+    opacity: 0.4;
+    margin-top: 15px;
+}
+
+h6 {
+    margin-top: 10px;
+    opacity: 0.8;
+    max-width: 80%;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: 50px auto;
+}
+
+.wrapper-block {
+    display: flex;
+    margin-top: 40px;
+    border: 1px solid transparent;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.wrapper-text {
+    text-align: center;
+}
+
+.wrapper-contact {
+    background-image: url("../img/indigo.jpg");
+    background-size: cover;
+    margin: 5px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.wrapper-contact-text {
+    margin: 20px;
+}
+
+.wrapper-contact-info {
+    margin-left: 20px;
+}
+
+.icon {
+    margin-top: 15px;
+    display: flex;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.material-symbols-outlined {
+    color: #2F2895;
+    font-variation-settings: 'FILL' 1, 'wght' 600;
+    font-weight: 500;
+}
+
+i {
+    color: white;
+}
+
+.icon-con {
+    width: 20%;
+    text-align: center;
+    padding: 10px 6px;
+    border-radius: 21px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.icon-con:hover {
+    background-color: #05004E;
+}
+
+.wrapper-contact-social {
+    display: flex;
+    max-width: 40%;
+    justify-content: space-around;
+    margin: 50px 20px 20px;
+}

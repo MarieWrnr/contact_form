@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Contact Form</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/7842390712.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="wrapper-text">
+        <h1>Contact Us</h1>
+        <h4>Any question or remarks? Just write us a message!</h4>
+    </div>
+    <div class="wrapper-block">
+        <div class="wrapper-contact">
+            <div class="wrapper-contact-text">
+                <h3>Contact information</h3>
+                <h6>Fill up the form and our Team will get back to you within 24 hours.</h6>
+            </div>
+            <div class="wrapper-contact-info">
+                <div class="icon"><span class="material-symbols-outlined">
+call
+</span>
+                    <p>+0123 4567 8910</p>
+                </div>
+                <div class="icon"><span class="material-symbols-outlined">
+mail
+</span>
+                    <p>hello@gmail.com</p>
+                </div>
+                <div class="icon"><span class="material-symbols-outlined">
+location_on
+</span>
+                    <p>Privet drive</p>
+                </div>
+            </div>
+            <div class="wrapper-contact-social">
+                <div class="icon-con"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
+                <div class="icon-con"><a href="#"><i class="fab fa-x-twitter"></i></a></div>
+                <div class="icon-con"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+                <div class="icon-con"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div>
+            </div>
+        </div>
+        <div class="wrapper-form">
+            HI
+            <form action="#">
+
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
