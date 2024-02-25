@@ -52,29 +52,29 @@ location_on
                 <div class="icon-con"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div>
             </div>
         </div>
-        <form action="#" class="wrapper-form">
+        <form action="#" class="wrapper-form" method="POST">
             <div class="wrapper-form-inputs">
                 <div class="wrapper-form-field">
                     <label for="firstname">Firstname</label>
-                    <input type="text" id="firstname" required>
+                    <input type="text" id="firstname" name="firstname">
                 </div>
                 <div class="wrapper-form-field">
                     <label for="lastname">Lastname</label>
-                    <input type="text" id="lastname"required>
+                    <input type="text" id="lastname" name="lastname">
                 </div>
                 <div class="wrapper-form-field">
                     <label for="email">Email</label>
-                    <input type="email" id="email" required>
+                    <input type="email" id="email" name="email">
                 </div>
                 <div class="wrapper-form-field">
                     <label for="phone">Phone</label>
-                    <input type="tel" id="phone" required>
+                    <input type="tel" id="phone" name="phone">
                 </div>
             </div>
             <div class="wrapper-form-question">
                 <p class="question">What kind of the website do you need?</p>
                 <div class="wrapper-form-radio">
-                    <input type="radio" id="webd" name="website" required>
+                    <input type="radio" id="webd" name="website" checked>
                     <label for="webd">Web Design</label>
                 </div>
                 <div class="wrapper-form-radio">
@@ -95,9 +95,12 @@ location_on
                 <textarea name="message" id="message" placeholder="Write your message..."></textarea>
             </div>
             <input type="submit" id="submit" value="Send Message">
+            <p class="status">Sending your message...</p>
         </form>
     </div>
 </div>
 </div>
+
+<script src="js/script.js"></script>
 </body>
 </html>

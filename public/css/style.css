@@ -209,3 +209,7 @@ input:hover, input:focus, #message:hover, #message:focus {
     color: #2F2895;
     background-color: white;
 }
+
+.status {
+    display: none;
+}
